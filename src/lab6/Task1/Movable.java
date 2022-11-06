@@ -1,5 +1,8 @@
 package lab6.Task1;
 
 public interface Movable {
-    public void moveUp();
+     void moveUp();
+     void moveDown();
+     void moveRight();
+     void moveLeft();
 }
