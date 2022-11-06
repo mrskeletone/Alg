@@ -3,26 +3,43 @@ package Lab4.task3;
 import java.util.Scanner;
 
 public class eShop {
+    private String login;
+    private  int password;
 
-    public static boolean auth(int password, int enterPassword){
+    public String getLogin() {
+        return login;
+    }
+
+    public void setLogin(String login) {
+        this.login = login;
+    }
+
+    public int getPassword() {
+        return password;
+    }
+
+    public void setPassword(int password) {
+        this.password = password;
+    }
+
+    public  boolean auth( int enterPassword){
         boolean enter = false;
-        if(enterPassword==password){
+        if(enterPassword==this.password){
             enter = true;
         } else {
             System.out.println("Неверный пароль. Введите пароль ещё раз");
         }
         return enter;
     }
-
-    public static void mai(String[] args){
-        Scanner in = new Scanner(System.in);
-        int password=1234;
+    public  boolean authLogin( String enterLogin){
         boolean enter = false;
-
-        System.out.println("Добро пожаловать в интернет магазин, введите пароль");
-        while (enter==false){
-            int enterPassword = in.nextInt();
-            auth(password,enterPassword);
+        if(enterLogin.equalsIgnoreCase(this.login)){
+            enter = true;
+        } else {
+            System.out.println("Неверный логин. Введите логин ещё раз");
         }
+        return enter;
     }
+
+
 }
