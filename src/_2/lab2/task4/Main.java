@@ -1,4 +1,4 @@
-package _2.lab2;
+package _2.lab2.task4;
 
 import java.util.ArrayList;
 import java.util.Scanner;
@@ -10,7 +10,7 @@ class Shop{
         this.PC=PC;
     }
     Shop(){
-        models = new ArrayList<>();
+         models = new ArrayList<>();
     }
     public String getPC(){
         return PC;
@@ -40,7 +40,7 @@ class Shop{
     }
 }
 
-public class main4 {
+public class Main {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
         Shop sh = new Shop();

@@ -1,4 +1,5 @@
-package _2.lab2;
+package _2.lab2.task7;
+
 import java.util.Scanner;
 class Book{
     private String Author;
@@ -41,8 +42,7 @@ class Book{
                 "Название: "+ this.bookName+"\n"+
                 "Год выпуска: "+this.year;
     }
-}
-class BookShelf {
+}class BookShelf {
     private Book[] shelf;
     private int n;
     private Book book;
@@ -85,7 +85,7 @@ class BookShelf {
 
     public Book searchMin(){
         int g = Integer.MAX_VALUE;
-        Book smallbook = new Book("fdd","fddf",10);
+        Book smallbook = new Book("fqewedd","fddwef",10);
         for(int i =0;i<this.n;i++){
             if(this.shelf[i].getYear()<g){
                 g=this.shelf[i].getYear();
@@ -97,7 +97,7 @@ class BookShelf {
 
     public Book searchMax(){
         int g =Integer.MIN_VALUE;
-        Book bigbox = new Book("dffd","fdfd",10);
+        Book bigbox = new Book("dffwerd","fdwerfd",10);
         for(int i=0;i<this.n;i++){
             if(this.shelf[i].getYear()<g){
                 g=this.shelf[i].getYear();
@@ -128,7 +128,7 @@ class BookShelf {
     }
 
 }
-public class Main7 {
+public class main {
     public static void main(String[] args){
         Scanner in = new Scanner(System.in);
 
