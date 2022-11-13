@@ -9,18 +9,10 @@ public class MovablePoint implements Movable {
         this.speedX = speedX;
         this.speedY = speedY;
     }
-    public void moveUp(){
-    System.out.println("Передвижение точки вверх");
-    }
-    public void moveDown(){
-        System.out.println("Передвижение точки вниз");
-    }
-    public void moveRight(){
-        System.out.println("Передвижение точки вправо ");
-    }
-    public  void moveLeft(){
-        System.out.println("Передвижение точки влево");
-    }
+    public void moveUp(){}
+    public void moveDown(){}
+    public void moveRight(){}
+    public  void moveLeft(){}
     @Override
     public String toString() {
         return "movablePoint{" +
