@@ -1,4 +1,4 @@
-package lab4.task2;
+package Lab4.task2;
 
 public abstract class Clothes {
     private double size,cost;

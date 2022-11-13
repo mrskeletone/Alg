@@ -1,4 +1,4 @@
-package lab4.task1;
+package Lab4.task1;
 
 public enum Seasons {
     summers(25),

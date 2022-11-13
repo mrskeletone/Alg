@@ -1,4 +1,4 @@
-package lab4.task2;
+package Lab4.task2;
 
 public class main {
     public static void main(String[] args) {

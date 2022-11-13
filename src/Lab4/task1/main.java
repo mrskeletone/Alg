@@ -1,4 +1,4 @@
-package lab4.task1;
+package Lab4.task1;
 
 public class main {
     public  static  void  Case(Seasons seasons){
