@@ -1,7 +1,6 @@
 package lab1.task7;
 import java.util.Scanner;
 
-import static num7.Math.factorial;
 
 public class MathTest {
     public static void main(String[] args) {
@@ -9,5 +8,12 @@ public class MathTest {
         int length;
         length = sc.nextInt();
         factorial(length);
+    }
+    public static void factorial(int i) {
+        int fact = 1;
+        for (int f = i; f > 0; f--){
+            fact *= f;
+        }
+        System.out.println(fact);
     }
 }
